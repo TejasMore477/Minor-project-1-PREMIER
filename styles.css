@@ -270,7 +270,7 @@ h6:hover{
  .page2 .part2 .image{
     height: 60%;
     width: 100%;
-    background-color: antiquewhite;
+/*     background-color: antiquewhite; */
     background-image: url(./page2/imgF.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -373,7 +373,7 @@ h6:hover{
 .page3 .right{
     height: 100%;
     width: 52%;
-    background-color: palegreen;
+/*     background-color: palegreen; */
     background-image: url(./page3/image1.jpg);
     background-position: 50% 40%;
     background-repeat: no-repeat;
