@@ -154,7 +154,7 @@ html,body{
     height: 100%;
     width: 100%;
     display: inline-block;
-     padding: 0vw 0vw; 
+    padding: 0vw 0vw; 
     animation-name: anime;
     animation-duration: 11s;
     animation-iteration-count: infinite;
@@ -827,13 +827,13 @@ h6:hover{
         height:24vh;
     }
     .scrollbar .container{
-        width: 1374px;
+        width: 1215px;
         animation-name: anime;
     }
     .container img{
-        height: 150px;
-        width: 150px;
-        margin: 10px 9px;
+        height: 130px;
+        width: 130px;
+        margin: 15px 9px;
     }
     .alphabets{
         height: 11vh;
@@ -843,6 +843,7 @@ h6:hover{
         overflow-x: auto;
         padding: 0 20px 0 20px; 
         border-bottom: none;
+        margin-bottom:10px;
     }
     .alphabets h5{
         font-size: 17px;
@@ -885,8 +886,8 @@ h6:hover{
         height: 100%;
     }
      .text #left-text h3{
-        font-size: 23px;
-        line-height: 28px;
+        font-size: 20px;
+        line-height: 20px;
         font-weight: 500;
     }
     .text  #right-text p{
@@ -979,13 +980,13 @@ h6:hover{
         padding: 0vw 2vw;
     } 
     .page5 .elem img{
-        height: 90px;
-        width: 90px;
+        height: 75px;
+        width: 75px;
         top: 16%;
         left: 32%;
     }
     .page5 .elem h4{
-        font-size: 12px;
+        font-size: 11px;
     }
     .page5 .elem .part2{
         width: 40%;
@@ -1012,42 +1013,42 @@ h6:hover{
         background-position: 60% 50%;
     }
     .page6 .right p{
-        padding-top: 40px;
+        padding-top: 20px;
         width: 100%;
         height: 40%;
-        font-size: 13.5px;
+        font-size: 11.5px;
     }
     .banner{
         height: 40vh;
+        margin-bottom:40px;
     }
     .banner video{
         height: 40vh;
     }
     .page7{
-        height: 11%;
         padding: 0.7vw 4vw 2vw 4vw;
     }
     .page7 .left{
         height: 70%;
     }
     .page7 .right .topimage{
-        height: 45%;
+        height: 40%;
     }
     .page7 .right .text{
-        height: 50%;
+        height: 58%;
         flex-direction: column;
     }
     .page7 .right .text .text-left{
         width: 100%;
     }
     .text-left h2{
-        font-size: 20px;
+        font-size: 17.5px;
     }
     .page7 .right .text .text-right{
         width: 100%;
     }
     .text-right p{
-        font-size: 13px;
+        font-size: 12px;
     }
     .marque h1{
         font-size: 30px;
@@ -1060,7 +1061,7 @@ h6:hover{
     }
     .page8 h1{
         font-size: 30px;
-        margin: 30px 0 10px 0;
+        margin: 10px 0 10px 0;
     }
     .page8 .blog1 , .page8 .blog2{
         height: 65%;
@@ -1071,10 +1072,10 @@ h6:hover{
         height: fit-content;
     }
     .page8 .blog1 #text h3 , .blog2 #text h3{
-        font-size: 15px;
-        padding-top: 20px;
+        font-size: 13px;
+        padding-top: 10px;
         font-weight: 400;
-        margin-bottom: 20px;
+        margin-bottom: 10px;
     }
     .page8 .blog1 #text span , .blog2 #text span{
         padding: 0.2vw 0.9vw;
@@ -1113,7 +1114,8 @@ h6:hover{
         text-align: center;
     }
     .footer .part1 .text h2{
-        font-size: 20px;
+        font-size: 16px;
+        
         border-bottom: 2px solid black;
     }
     .footer .part2{
@@ -1123,7 +1125,7 @@ h6:hover{
         border-bottom: 2px solid black;
     }
     .footer .part2 h2{
-        font-size: 20px;
+        font-size: 16px;
     }
     .footer .part3{
         width: 100%;
@@ -1134,7 +1136,7 @@ h6:hover{
         text-align: center;
     }
     .footer .part3 .top h2{
-        font-size: 20px;
+        font-size: 16px;
     }
     .footer .part3 .bottom{
         width: 80%;
