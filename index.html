@@ -5,56 +5,69 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Minor-Project 1 | Premier</title>
     <link rel="stylesheet" href="styles.css">
-    <link
-    href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css"
-    rel="stylesheet"/>
+    <!--locomotive js css cdn-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+     <!--remix icon cdn-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css" rel="stylesheet"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
 <body>
     <div class="main">
+
+
+
         <div class="nav">
             <h1>Premier</h1>
             <h2>Model</h2>
             <h2>Women/Men</h2>
             <h2>Agency/Blog/Information</h2>
-            <h2><i class="fa-solid fa-magnifying-glass fa-bounce"></i></h2>
-            <!-- <h2><i class="ri-search-line"></i></h2> -->
+            <h2><i class="fa-solid fa-magnifying-glass"></i></h2>
+            <i id="formobile" class="ri-menu-3-line"></i>
         </div>
+
+
+
         <div class="center">
-            <video autoplay loop muted src="video2.mp4"></video>
-            <div id="overtext">
-                <div class="toptext">
+            <video autoplay loop muted  src="video2.mp4"></video>
+            <div id="overtext"data-scroll data-scroll-delay="2">
+                <div class="toptext" data-scroll data-scroll-speed="2">
                     <h1>Photography <br>And Films</h1>
                     <h4>01</h4>
                 </div> 
-                <div class="bottomtext">
+                <div class="bottomtext" data-scroll data-scroll-speed="1">
                     <h4>Explore</h4>
-                    <img src="./right-arrow.png">
+                    <img src="./right-arrow.png" data-scroll data-scroll-speed="4" data-scroll-direction="horizontal">
                 </div> 
             </div> 
         </div>
+
+
+
         <div class="scrollbar">
-        <div class="container">
-                <img src="./scrollbar/img1.jpg" alt="">
-                <img src="./scrollbar/img2.jpg" alt="">
-                <img src="./scrollbar/img3.jpg" alt="">
-                <img src="./scrollbar/img4.jpg" alt="">
-                <img src="./scrollbar/img5.jpg" alt="">
-                <img src="./scrollbar/img6.jpg" alt="">
-                <img src="./scrollbar/img7.jpg" alt="">
-                <img src="./scrollbar/img8.jpg" alt=""> 
-            </div>
-            <div class="container">
-                <img src="./scrollbar/img1.jpg" alt="">
-                <img src="./scrollbar/img2.jpg" alt="">
-                <img src="./scrollbar/img3.jpg" alt="">
-                <img src="./scrollbar/img4.jpg" alt="">
-                <img src="./scrollbar/img5.jpg" alt="">
-                <img src="./scrollbar/img6.jpg" alt="">
-                <img src="./scrollbar/img7.jpg" alt="">
-                <img src="./scrollbar/img8.jpg" alt=""> 
-            </div>     
+            <div class="container 1" >
+                    <img src="./scrollbar/img1.jpg" alt="">
+                    <img src="./scrollbar/img2.jpg" alt="">
+                    <img src="./scrollbar/img3.jpg" alt="">
+                    <img src="./scrollbar/img4.jpg" alt="">
+                    <img src="./scrollbar/img5.jpg" alt="">
+                    <img src="./scrollbar/img6.jpg" alt="">
+                    <img src="./scrollbar/img7.jpg" alt="">
+                    <img src="./scrollbar/img8.jpg" alt=""> 
+                </div>
+                <div class="container 2" >
+                    <img src="./scrollbar/img1.jpg" alt="">
+                    <img src="./scrollbar/img2.jpg" alt="">
+                    <img src="./scrollbar/img3.jpg" alt="">
+                    <img src="./scrollbar/img4.jpg" alt="">
+                    <img src="./scrollbar/img5.jpg" alt="">
+                    <img src="./scrollbar/img6.jpg" alt="">
+                    <img src="./scrollbar/img7.jpg" alt="">
+                    <img src="./scrollbar/img8.jpg" alt=""> 
+                </div>     
         </div>
+
+
+
         <div class="alphabets">
             <h5>ALL</h5>
             <h6>A</h6>
@@ -84,96 +97,117 @@
             <h6>Y</h6>
             <h6>Z</h6>
         </div>
-        <div class="page2">
+
+
+
+        <div class="page2" data-scroll>
             <div class="upperpart">
                 <div class="part1"></div>
                 <div class="part2">
-                    <div class="image"></div>
+                    <div class="image" data-scroll data-scroll-speed="2"></div>
                     <div class="text">
-                        <div id="left-text"><h3>Hannah Motler features in a  fassion stroy by  the lake  Vogue new short</h3></div>
+                        <div id="left-text">
+                            <h3>Hannah Motler features in a  fassion stroy by  the lake  Vogue new short</h3>
+                        </div>
                         <div id="right-text"><p>Such exposure to the fashion and the passion for branding and creativity to transition from one side of the cammera to the other</p></div>
                     </div>
                 </div>
             </div>
             <div class="bottompart">
-                <h1>VOGUE / SHOT</h1>
+                <h1 id="bt">VOGUE / SHOT</h1>
             </div>
         </div>
-        <div class="page3">
+
+
+
+        <div class="page3" data-scroll>
             <div class="left">
-                <div id="top">
-                    <div class="overarrow"></div>
+                <div id="top" class="imageOverhead">
+                    <div class="overarrow" data-scroll data-scroll-speed="-1.5" data-scroll-direction="horizontal"></div>
                 </div>
                 <div id="bottom">
                     <h3>Maison ARTC: memories and culture,<br> the basic of futuristic fashion awareness.Tilila Oulhaj look</h3>
                 </div>
             </div>
-            <div class="right"></div>
+            <div class="right" data-scroll data-scroll-speed="2"></div>
         </div>
-        <div class="page4">
-            <div id="image"></div>
+
+
+
+        <div class="page4" data-scroll>
+            <div id="image" data-scroll data-scroll-speed="-2" data-scroll-direction="horizontal"></div>
             <div id="belowtext"><h1>UPDATES</h1></div>
         </div>
-        <div class="page5">
+
+
+
+        <div class="page5" data-scroll>
             <div class="elem">
-                <img src="./page5/imag1.jpg" alt="">
-                <h4>MENS FASHION</h4>
-                <div class="part2">
+                <img id="pg5Img" src="./page5/imag1.jpg" alt="">
+                <h4 id="pg5Title">MENS FASHION</h4>
+                <div class="part2" id="textRight">
                     <h1>Khadim & Tom Ford</h1>
                     <h5>25TH MARCH 2020</h5>
                 </div>
             </div>
             <div class="elem">
-                <img src="./page5/imag2.jpg" alt="">
-                <h4>WOMENS FASHION</h4>
-                <div class="part2">
+                <img id="pg5Img" src="./page5/imag2.jpg" alt="">
+                <h4 id="pg5Title">WOMENS FASHION</h4>
+                <div class="part2" id="textRight">
                     <h1>Arena Homme</h1>
                     <h5>3RD FEBRUARY 2020</h5>
                 </div>
             </div>
             <div class="elem">
-                <img src="./page5/img3.jpg" alt="">
-                <h4>SPECIAL VIEW</h4>
-                <div class="part2">
+                <img id="pg5Img" src="./page5/img3.jpg" alt="">
+                <h4 id="pg5Title">SPECIAL VIEW</h4>
+                <div class="part2" id="textRight">
                     <h1>Jing for Wonderland</h1>
                     <h5>14TH JANUARY 2020</h5>
                 </div>
             </div>
             <div class="elem">
-                <img src="./page5/img4.jpg" alt="">
-                <h4>MODELS TALK</h4>
-                <div class="part2">
+                <img id="pg5Img" src="./page5/img4.jpg" alt="">
+                <h4 id="pg5Title">MODELS TALK</h4>
+                <div class="part2" id="textRight">
                     <h1>Glass x Belle</h1>
                     <h5>08TH JANUARY 2020</h5>
                 </div>
             </div>
         </div>
-        <div class="page6">
-            <div class="left"></div>
+
+
+
+        <div class="page6" data-scroll>
+            <div class="left" data-scroll data-scroll-speed="3.3"></div>
             <div class="right">
                 <h1>MOVIE SHOT</h1>
-                <h3>London based Tom Mitchell has a distinct asthetic within his Photography & Moving image</h3>
-                <p>Tom's clam nature and engerness to create, while still maintaning a high level of professionalism; has seen him side into the fashion industay -phptography campaigns,look books,editorials,portraits,short films and TV commercials.</p>
+                <div class="textsub"><h3>London based Tom Mitchell has a distinct asthetic within his Photography & Moving image</h3></div>
+                <div class="paragraph"><p>Tom's clam nature and engerness to create, while still maintaning a high level of professionalism; has seen him side into the fashion industay - phptography campaigns, look books, editorials, portraits, short films and TV commercials.</p></div>
                 <div id="images">
-                    <div id="leftimage"></div>
-                    <div id="rightimage"></div>
+                    <div id="leftimage" data-scroll data-scroll-speed="2.3"></div>
+                    <div id="rightimage" data-scroll data-scroll-speed="1.3"></div>
                 </div>
             </div>
         </div>
         <div class="banner">
             <video autoplay loop muted src="./banner/video.mp4"></video>
         </div>
-        <div class="page7">
-            <div class="left"></div>
+
+
+
+        <div class="page7" data-scroll>
+            <div class="left" data-scroll data-scroll-speed="2"></div>
             <div class="right">
-                <div class="topimage"></div>
+                <div class="topimage" data-scroll data-scroll-speed="2"></div>
                 <div class="text">
-                    <div class="text-left"><h2>"Body"and"No Lie"-90s inspired R&D sound that is drawing a new comparisons to Dua Lipa</h2></div>
-                    <div class="text-right"><p>There aren't many 22 year-olds with the introspection of icelandic artist Glowie-real name Sara Petursdottir-bu then again, she's always bbeen one for doing her own thing.</p></div>
+                    <div class="text-left" id="textleft"><h2>"Body"and"No Lie"-90s inspired R&D sound that is drawing a new comparisons to Dua Lipa</h2></div>
+                    <div class="text-right" id="textright"><p>There aren't many 22 year-olds with the introspection of icelandic artist Glowie-real name Sara Petursdottir-bu then again, she's always bbeen one for doing her own thing.</p></div>
                 </div>
             </div>
         </div>
-        <div class="marque">
+
+        <div class="marque" data-scroll data-scroll-speed="2">
             <h1>Premier Model 2020</h1>
             <h1>Premier Model 2020</h1>
             <h1>Premier Model 2020</h1>
@@ -181,18 +215,24 @@
             <h1>Premier Model 2020</h1>
             <h1>Premier Model 2020</h1>
         </div>
-        <div class="page8">
+
+
+
+        <div class="page8" data-scroll>
             <h1>BLOG</h1>
             <div class="blog1">
                 <div id="text"><h3><span>B</span>Jack Thompson features in a story crossing bridges for ID Magazine shot by Maxwell Tomlinson, styled by Louise Prier Tisdall.</h3></div>
-                <div id="image"></div>
+                <div id="image" data-scroll data-scroll-speed="2"></div>
             </div>
             <div class="blog2">
                 <div id="text"><h3><span>B</span>As London Fashion Week has come to an end, we've made a list of our fresh new faces & showgirls who have hard walked for some of the biggest designers.</h3></div>
-                <div id="image"></div>
+                <div id="image" data-scroll data-scroll-speed="3"></div>
             </div>
         </div>
-        <div class="footer">
+
+
+
+        <div class="footer" data-scroll data-scroll-speed="4">
             <div class="part1">
                 <div class="brand">
                     <h1>Premier</h1>
@@ -206,7 +246,7 @@
             </div>
             <div class="part3">
                 <div class="top">
-                    <h2>Agency/Blog/Information/Contact us</h2>
+                    <h2 id="footerh3">Agency/Blog/Information/Contact us</h2>
                 </div>
                 <div class="bottom">
                     <div class="icon">
@@ -223,5 +263,17 @@
             </div>
         </div>
     </div>
+
+
+
+    <!--locomotive js script-->
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <!--gsap main script-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <!--gsap scroll triger script-->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- Split Type JavaScript CDN -->
+    <script src="https://unpkg.com/split-type"></script>
+   <script src="script.js"></script> 
 </body>
 </html>
