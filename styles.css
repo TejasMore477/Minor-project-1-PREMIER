@@ -82,6 +82,9 @@ html,body{
 .nav #formobile{
     display: none;
 }
+.nav #formobile{
+    display: none;
+}
 .center{
     height: 86vh;
     width: 100%;
@@ -156,6 +159,7 @@ html,body{
     height: 100%;
     width: 100%;
     display: inline-block;
+    padding: 0vw 0vw; 
     padding: 0vw 0vw; 
     animation-name: anime;
     animation-duration: 11s;
