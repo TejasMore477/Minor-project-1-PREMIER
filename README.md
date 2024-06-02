@@ -31,16 +31,14 @@ Handling the Scroll Trigger events and even the Shepherd.js according to the scr
 ┣ 📜 script.js
 ┗ 📜 styles.css 
 
-## Preview 👀
+# Video 🎥:
 
-![Premire Preview](https://github.com/TejasMore477/Minor-project-1-PREMIER/assets/132757112/09887128-c7c3-484e-9685-5829061c02f7)
+## Preview ScreenShots👀
+![Screenshot (346)](https://github.com/TejasMore477/Minor-project-1-PREMIER/assets/132757112/a6142217-a1e3-4a2f-847c-4b2ed5636ab7)
+![Screenshot (347)](https://github.com/TejasMore477/Minor-project-1-PREMIER/assets/132757112/6499cb94-4ebd-42c4-8ca4-0f99b1041082)
+![Screenshot (348)](https://github.com/TejasMore477/Minor-project-1-PREMIER/assets/132757112/e4e43b08-2c5e-409d-8f40-b78e23665712)
+![Screenshot (349)](https://github.com/TejasMore477/Minor-project-1-PREMIER/assets/132757112/7b737af5-8cf4-4309-a8ce-25938586c9b7)
 
-
-
-## Quick Start
-
-1. Clone the repository: `git clone https://github.com/TejasMore477/Minor-project-1-PREMIER/tree/my-new-branch.git`
-2. Open `index.html` in your browser to explore the Eye Candy landing page.
 
 ## Active Link Section
 
