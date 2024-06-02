@@ -1,15 +1,34 @@
-# PREMIRE-Model Management Website Clone📸
-✨Welcome to PREMIRE, my first minor project where I attempted to clone a website design sourced from Pinterest, with the guidance of Sarthak Sharma as my frontend mentor. This website is dedicated to model management and is built entirely using HTML and CSS.
+# PREMIRE-Model Management Website 📸
+✨Welcome to PREMIRE, a project where I attempted to clone a website design sourced from Pinterest, with integration of New Technologies to boost the user interface and experience. This website is dedicated to model management and is built using HTML, CSS, JavaScript, GSAP, Locomotive.js, and Shepherd.js frameworks.
 
-# Project Highlights                  
-🌟 Design Inspiration: Cloned a website design from Pinterest for a model management website.                     
-🖥️ Tech Stack: Built using HTML and CSS only, showcasing fundamental frontend development skills.                                
-🚀 Challenging Experience: My first complete website clone project, without access to images and videos, posed exciting challenges that I thoroughly enjoyed overcoming.      
+# Project Highlights:                  
+🌟 Design Inspiration: website design from Pinterest.                     
+🖥️ Tech Stack: HTML, CSS, JavaScript, GSAP Animation, Locomotive.js, Shepherd.js. Showcasing fundamental frontend development skills.                               
+🚀 Challenging Experience:  This was my first time working with Shepherd.js. Exploring new technology was quite interesting. In this project, I have integrated Shepherd.js with scroll trigger, which was challenging. I faced problems managing the 'Default' scroll behavior of Shepherd.js. I enjoyed overcoming these challenges.
+
+# ✨Project Features:
+# 🐏Shepherd.js: [JS Library for User Journey Analytics]
+Functionality⚙ : Successfully integrated Shepherd with GSAP Scroll-Trigger to trigger the components only when the desired part of the webpage is scrolled.                             
+                  Understanding the Default Scroll behavior of this framework to manipulate scrolling.                                                                                               
+                  Successfully integrated a Delay Function to Shepherd.js to control the execution timing of the components.                                                            
+Stylings😎: Used custom styling classes to style the Shepherd components with suitable matching UI to the website.                                                                 
+             Added hover effects to the components using classes.                                            
+             Controlling the styling of Shepherd.js components according to the device using Media Queries.                                                             
+            
+# Locomotive.js :[Smooth Scrolling JS Library]
+Used Locomotive.js library directly within the HTML, using CDN, to implement smooth scroll effects on the website.
+# GSAP Animation : [Animation Library]
+Used GSAP to add superior styling to the web, enhancing user interactions and experience.
+Handling the Scroll Trigger events and even the Shepherd.js according to the scrolling.
+            
 
 ## Project Structure
 📦 Minor-project-1-PREMIER/my-new-branch                                    
 ┣ 🖼️ (images)                   
-┣ 📜 index.html                                     
+┣ 📜 index.html 
+┣ 📜 Readme.md
+┣ 📜 nodemodules
+┣ 📜 script.js
 ┗ 📜 styles.css 
 
 ## Preview 👀
