@@ -254,7 +254,7 @@ h6:hover{
  .page2 .part2 .image{
     height: 60%;
     width: 100%;
-    background-image: url(./page2/imgF.jpg);
+    background-image: url(./page2/imgFC.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover; 
@@ -346,7 +346,7 @@ h6:hover{
 .page3 .right{
     height: 100%;
     width: 52%;
-    background-image: url(./page3/image1.jpg);
+    background-image: url(./page3/image1C.jpg);
     background-position: 50% 40%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -363,7 +363,7 @@ h6:hover{
 .page4 #image{
     height: 70%;
     width: 100%;
-    background-image: url(./page4/img3.jpg);
+    background-image: url(./page4/img3C.jpg);
     background-position: 50% 10%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -474,7 +474,7 @@ h6:hover{
 .page6 .right #images #leftimage{
     height: 100%;
     width: 52%;
-    background-image:url(./page6/image4.jpg);
+    background-image:url(./page6/image4C.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -482,7 +482,7 @@ h6:hover{
 .page6 .right #images #rightimage{
     height: 100%;
     width: 45%;
-    background-image:url(./page6/image3.jpg);
+    background-image:url(./page6/image3C.jpg);
     background-position:50% 20%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -490,7 +490,7 @@ h6:hover{
 .page6 .left{
     height: 100%;
     width: 50%;
-    background-image: url(./page6/image1.jpg);
+    background-image: url(./page6/image1C.jpg);
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
@@ -520,7 +520,7 @@ h6:hover{
 .page7 .left{
     height: 100%;
     width: 50%;
-    background-image:url(./page7/image1.jpg);
+    background-image:url(./page7/image1C.jpg);
     background-position: 50% 40%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -536,7 +536,7 @@ h6:hover{
 .page7 .right .topimage{
     height: 60%;
     width: 100%;
-    background-image:url(./page7/image2.jpg);
+    background-image:url(./page7/image2C.jpg);
     background-position: 50% 20%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -635,7 +635,7 @@ h6:hover{
 .page8 .blog1 #image{
     height: 50%;
     width: 100%;
-    background-image: url(./page8/imageb.jpg);
+    background-image: url(./page8/imagebC.jpg);
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
@@ -659,7 +659,7 @@ h6:hover{
 .page8 .blog2 #image{
     height: 50%;
     width: 100%;
-    background-image: url(./page8/imagea.jpg);
+    background-image: url(./page8/imageaC.jpg);
     background-position: 50% 0%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -934,7 +934,7 @@ h6:hover{
     .page3 .right{
         height: 100%;
         width: 52%;
-        background-image: url(./page3/image1.jpg);
+        background-image: url(./page3/image1C.jpg);
         background-position: 50% 40%;
         background-repeat: no-repeat;
         background-size: cover;
