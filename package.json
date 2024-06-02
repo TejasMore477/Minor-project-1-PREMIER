@@ -1,0 +1,15 @@
+{
+  "name": "minor-project-1",
+  "version": "1.0.0",
+  "description": "✨Welcome to PREMIRE, my first minor project where I attempted to clone a website design sourced from Pinterest, with the guidance of Sarthak Sharma as my frontend mentor. This website is dedicated to model management and is built entirely using HTML and CSS.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "shepherd.js": "^12.0.5"
+  }
+}
