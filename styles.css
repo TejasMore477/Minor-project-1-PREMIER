@@ -12,11 +12,43 @@ html,body{
 }
 .main{
     background-color: #F8F8F8;
-    /* height: calc(100% + 28vh + 10vh  + 88vh  + 82vh + 500vh + 80vh + 50vh);
-    width: 100%; */
     position: relative;
     padding-top:0.1px;
 }
+
+/*-----------------------------------------------------Shepherd stylings------------------------------------------------------------------------*/
+
+.custom-shepherd-class {
+    /*styling for the complete shephar box*/
+    background:rgb(240, 240, 240) !important;
+    font-family: 'Poppins' !important;
+    border-radius: 8px !important;
+    padding: 5px !important;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1) !important;
+    color: #646363 !important;
+}
+
+
+.custom-shepherd-class .shepherd-footer .shepherd-button {
+    /*stylings for the button*/
+    background-color: black !important;
+    color: #fff !important;
+    border: none !important;
+    border-radius: 7px !important;
+    padding: 10px 20px !important;
+    width: 100px !important; 
+    cursor: pointer !important;
+    font-size: 14px !important;
+    font-family: 'Poppins' !important;
+}
+
+.custom-shepherd-class .shepherd-footer .shepherd-button:hover {
+    /*on hover styling for the buttons*/
+    background-color: white !important;
+    color: black !important;
+}
+
+/*-----------------------------------------------------Shepherd stylings------------------------------------------------------------------------*/
 
 
 .nav{
@@ -789,6 +821,13 @@ h6:hover{
 }
   /* Extra Small Devices (phones) */
   @media only screen and (max-width: 575px) {
+
+    .shepherd-element, /* Shepherd.js elements */
+    .shepherd-content, /* Shepherd.js content */
+    .shepherd-button { /* Shepherd.js buttons */
+      display: none !important;
+    }
+
     .nav{
         margin-top: 5px;
         padding-right: 30px;
@@ -1173,6 +1212,14 @@ h6:hover{
   
   /* Small Devices (portrait tablets and small desktops) */
 @media only screen and (min-width: 576px) and (max-width: 767px) {
+
+
+    .shepherd-element, /* Shepherd.js elements */
+    .shepherd-content, /* Shepherd.js content */
+    .shepherd-button { /* Shepherd.js buttons */
+      display: none !important;
+    }
+
     .nav{
         padding-right: 40px;
         padding-left: 30px;
