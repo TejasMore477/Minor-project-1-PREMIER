@@ -32,6 +32,7 @@ Handling the Scroll Trigger events and even the Shepherd.js according to the scr
 ┗ 📜 styles.css 
 
 # Video 🎥:
+https://github.com/TejasMore477/Minor-project-1-PREMIER/assets/132757112/3e6c5815-14ae-488e-b0f9-0c1e85a492e9
 
 ## Preview ScreenShots👀
 ![Screenshot (346)](https://github.com/TejasMore477/Minor-project-1-PREMIER/assets/132757112/a6142217-a1e3-4a2f-847c-4b2ed5636ab7)
